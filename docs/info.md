@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Implement a Capitalizer through UART communication that converts lowercase alphabetic characters to uppercase. The design features a UART receiver, a FIFO buffer, and a UART transmitter to handle serial data in a pipelined manner.
 
 ## How to test
 
-Explain how to use your project
+Send random letters as input. If a letter is lowercase, the system will automatically convert it to uppercase. 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Connect to a UART interface configured at a 9600 baud rate for TX/RX communication.
